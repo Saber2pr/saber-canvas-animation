@@ -19,7 +19,6 @@
   },
   "dependencies": {
     "saber-canvas": "^1.0.4",
-    "saber-dom": "^1.0.3",
     "saber-interval": "^1.0.3",
     "saber-observable": "^1.0.1"
   }

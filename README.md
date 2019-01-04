@@ -21,3 +21,5 @@ schedule(() => {
   }
 }, 2)
 ```
+
+> > [click here to view](https://saber2pr.github.io/saber-canvas-animation/)

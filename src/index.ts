@@ -7,7 +7,7 @@ let canvas = new Canvas('test', 400, 400)
   .draw(new Node(400, 400))
   .draw(new Label('Canvas动画测试').setPosition(150, 200))
 
-let createNodeObservable = (color: string, x: number, y: number) => {
+const createNodeObservable = (color: string, x: number, y: number) => {
   let observer = new Observable(
     new Node(50, 50).setColor(color).setPosition(x, y)
   )
@@ -15,7 +15,7 @@ let createNodeObservable = (color: string, x: number, y: number) => {
   return observer
 }
 
-let action = (node: Node): ((dx, dy) => Node) => {
+const action = (node: Node): ((dx, dy) => Node) => {
   canvas.clear(node)
   return (dx, dy) => {
     let next = node.setPosition(node.x + dx, node.y + dy)

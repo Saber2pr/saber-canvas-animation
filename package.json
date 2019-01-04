@@ -1,0 +1,26 @@
+{
+  "name": "saber-ts-launch-browser-npm",
+  "version": "1.0.5",
+  "description": "it just a template for ts dev in browser and publish it to npm.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saber2pr/saber-ts-launch-browser-npm.git"
+  },
+  "author": "saber2pr",
+  "license": "ISC",
+  "main": "./lib/index.js",
+  "scripts": {
+    "start": "tsc --watch",
+    "pack": "webpack"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.1",
+    "webpack": "^3.12.0"
+  },
+  "dependencies": {
+    "saber-canvas": "^1.0.4",
+    "saber-dom": "^1.0.3",
+    "saber-interval": "^1.0.3",
+    "saber-observable": "^1.0.1"
+  }
+}
